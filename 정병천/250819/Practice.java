@@ -49,7 +49,7 @@ public class Practice {
             case 9:
             case 10:
             case 11:
-                season = "여름";
+                season = "가을"; // 20250819 정병천 : 오탈자 수정
                 break;
             default:
                 season = "잘못된 월";
