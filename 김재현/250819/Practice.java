@@ -20,7 +20,7 @@ public class Practice {
         System.out.printf("안녕하세요. 저는 %s이고, 생일은 %s월 %s일 입니다.\n", "김재현", "03", "07");
 
         // 5. if-else 문을 이용하여, a라는 변수가 5이상일 때, "5보다 크다."라고 출력하고, 그 외는 "5보다 작다." 라고 출력하기.
-        if (a > 5) {
+        if (a >= 5) {
             System.out.println("5보다 크다");
         } else {
             System.out.println("5보다 작다");
@@ -69,7 +69,7 @@ public class Practice {
         System.out.println(month + "월은 " + season + "입니다.");
 
         // 7. 삼항연산자를 이용하여 a보다 b가 크면 true, 크지 않으면 false 를 출력하기
-        System.out.println(a > b ? "true" : "false");
+        System.out.println(a < b ? "true" : "false");
 
         // 8. Scanner 를 이용하여 두 수를 입력받아 총 합을 구하는 프로그램을 작성해보기.
         Scanner scanner = new Scanner(System.in);
